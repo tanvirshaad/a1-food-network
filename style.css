@@ -3,7 +3,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  padding: 0;
 }
 h1 {
   font-size: 40px;
@@ -35,14 +34,16 @@ p {
 .half-width img {
   width: 100%;
 }
+
 .grad-button {
+  text-decoration: none;
   background-image: linear-gradient(#fba24f, #ff1e1e);
   padding: 15px 35px;
   border: none;
   border-radius: 60px;
   color: white;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  display: inline-block;
   margin-top: 20px;
 }
 
@@ -61,7 +62,9 @@ p {
   width: 75%;
   height: 82.5%;
 }
-
+.recipie-area {
+  margin-top: 100px;
+}
 .recipie-area h2 {
   text-align: center;
 }
@@ -83,7 +86,7 @@ p {
   width: 100%;
 }
 .recipie-item .title-text {
-  font-size: 30px;
+  font-size: 22px;
   color: #18191f;
   margin-top: 10px;
   text-align: left;
@@ -93,4 +96,10 @@ p {
   margin-top: 0;
   font-size: 14px;
   color: #18191f;
+}
+
+footer {
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 5px 0px 20px;
 }
