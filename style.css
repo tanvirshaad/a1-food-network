@@ -23,7 +23,7 @@ p {
 }
 .flex-container {
   display: flex;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 .orange-color {
   color: #fba24f;
@@ -60,4 +60,37 @@ p {
 #person-image {
   width: 75%;
   height: 82.5%;
+}
+
+.recipie-area h2 {
+  text-align: center;
+}
+.recipie-area p {
+  text-align: center;
+}
+.recipie-item {
+  width: 33%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.recipie-item img {
+  padding-top: 20px;
+  width: 100%;
+}
+.recipie-item .title-text {
+  font-size: 30px;
+  color: #18191f;
+  margin-top: 10px;
+  text-align: left;
+}
+.recipie-item p {
+  text-align: left;
+  margin-top: 0;
+  font-size: 14px;
+  color: #18191f;
 }
